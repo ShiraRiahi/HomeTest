@@ -26,6 +26,16 @@ For a complete list of available schematics (such as `components`, `directives`,
 ng generate --help
 ```
 
+## Building the Application
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
+   cd your-repository-name
+Install dependencies:
+
+bash
+Copy code
+
 ## Building
 
 To build the project run:
@@ -57,3 +67,13 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Prerequisites
+Before deploying, ensure you have the following installed:
+- **Docker**: [Download Docker](https://www.docker.com/get-started)
+- **Kubernetes**: Set up a Kubernetes cluster (e.g., using Minikube, AWS EKS, GKE, or AKS)
+- **kubectl**: Kubernetes CLI tool
+- **Node.js**: To build the Angular application
+- **Angular CLI**: Run `npm install -g @angular/cli`
+
+---
