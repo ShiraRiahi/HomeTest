@@ -1,0 +1,337 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  height: 100%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header {
+  direction: rtl;
+  text-align: right;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+.header {
+  background-color: #285c7e;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.header .logo {
+  height: 80px;
+  position: relative;
+}
+
+.header .logo .office-description {
+  width: 200px;
+  height: 50px;
+  line-height: 18px;
+  text-align: right;
+  position: absolute;
+  top: 0px;
+  right: 170px;
+}
+
+.header .logo .office-description p {
+  margin: 0;
+}
+
+.dsk-view .header .logo .logo-right {
+  top: 10px;
+}
+
+.header .logo .logo-left {
+  font-size: 5em;
+  position: absolute;
+  top: -15px;
+  left: 0px;
+}
+
+.header .logo .semel.semel-medina {
+  top: -14px;
+}
+
+.header .logo .semel.semel-office {
+  right: 87.5px;
+}
+
+.header .logo .office-description {
+  width: 200px;
+  height: 50px;
+  line-height: 18px;
+  text-align: right;
+  position: absolute;
+  top: 10px;
+  right: 100px;
+}
+
+.header .logo .semel.semel-medina, .header .logo .semel.semel-office {
+  height: 50px;
+  width: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+header .inner-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.dsk-view .form-main-title {
+  background: #b7d3e4;
+  font-size: 17px;
+  padding: 5px 0;
+  font-weight: normal;
+  -moz-transition: all, .4s, ease;
+  -o-transition: all, .4s, ease;
+  -webkit-transition: all, .4s, ease;
+  transition: all, .4s, ease;
+}
+
+.dsk-view .footer .row1 .links {
+  margin: 0 -14px;
+}
+
+.dsk-view .form-main-title .inner-wrapper {
+  padding: 0 7px;
+}
+
+.dsk-view .form-main-title h1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: bold;
+  line-height: normal;
+  color: #293843;
+  max-width: 80%;
+  height: 20px;
+  text-align: right;
+}
+
+.dsk-view header .toolbar {
+  height: 40px;
+  line-height: 40px;
+  background: #263c4a;
+}
+
+.toolbar .toolbar-menu .toolbar-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+}
+
+div#OuterDiv {
+  background-color: #eef3f5;
+  z-index: 0;
+  min-height: 100%;
+  padding-top: 110px;
+}
+
+#form1 {
+  width: 100%;
+  background-color: #fff;
+  width: 850px;
+  margin: 0px auto;
+  text-align: right;
+  padding: 0 8px 50px 8px;
+}
+
+.row {
+  background: #e4f1f9;
+  border-bottom: 3px solid #fff;
+}
+
+.row [class^='col-'], .row [class*=' col-'] {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.row[class^='col-'] .bold-text, .row[class*=' col-'] .bold-text {
+  font-weight: bold;
+}
+
+.row [class^='col-'] label, .row [class*=' col-'] label {
+  margin: 0;
+  font-weight: normal;
+  /*display: block;*/
+}
+
+.instruction-container {
+  white-space: pre-wrap;
+}
+
+.section-sub-title {
+  background: #cde2ee;
+}
+
+.section-sub-title span {
+  margin: 0 15px;
+}
+
+.section-sub-title[class^='col-'], .section-sub-title[class*=' col-'] {
+  padding: 0;
+}
+
+.section-sub-title [class^='col-'], .section-sub-title [class*=' col-'] {
+  padding: 0;
+}
+
+.content .section-sub-title {
+  background: #cde2ee;
+  margin: 0 15px;
+  border-bottom: 0;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+.form-control {
+  border: solid 1px #3d759a !important;
+}
+
+.control-label {
+}
+
+.wrapper {
+  margin: 2%;
+  text-align: right;
+}
+
+img {
+  vertical-align: auto;
+}
+
+.buttons {
+  background-color: #fff;
+  padding: 5px 0;
+  margin: 0 5px;
+  float: left;
+}
+
+.btnAdd {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(10, 48, 87);
+}
+
+.btn-blue {
+  background-color: #3d759a;
+  border: 0 none;
+  color: #fff;
+  padding: 8px 40px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.required:after {
+  content: '*';
+  font-weight: bold;
+  color: red;
+}
+
+.footer {
+  width: 100%;
+  font-size: 1.1em;
+  color: #fff;
+  text-align: right;
+  direction: rtl;
+  bottom: 0px;
+}
+
+.footer .row1 {
+  height: 40px;
+  background: #263c4a;
+}
+
+.footer .row2 {
+  background-color: #285c7e;
+  box-shadow: 2px 4px 32px #000;
+  height: 80px;
+  border-top: 1px solid #fff;
+}
+
+.footer .row2 .inner-wrapper-mobile {
+  display: none;
+}
+
+.footer .row2 .text {
+  margin-right: 30px;
+}
+
+.footer .row2 .text {
+  line-height: 1.1em;
+  display: inline-block;
+}
+
+.footer .row1 .inner-wrapper, .footer .row2 .inner-wrapper {
+  padding: 10px 8px 0 8px;
+  max-width: 850px;
+  margin: 0 auto;
+  /*position: relative;*/
+}
+
+.footer .row1 .inner-wrapper .info, .footer .row2 .inner-wrapper .info, .footer .row1 .inner-wrapper .links, .footer .row2 .inner-wrapper .links {
+  width: 50%;
+  /*display: inline-block;*/
+}
+
+.info span {
+  cursor: pointer;
+}
+
+.footer .row1 .links, .footer .row2 .links {
+  font-size: 18px;
+}
+
+.footer a {
+  color: #fff;
+  font-weight: normal;
+}
+
+.footer .row1 .disclaimer {
+  padding: 0 6px;
+  margin: 0 6px;
+  border: 1px solid #fff;
+  border-top: none;
+  border-bottom: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+  color: #007bff;
+}
+
+
+/*mat-radio-button {*/
+/*  display: inline-flex;*/
+/*  width: 100%; !* מאפשר רספונסיביות *!*/
+/*  align-items: center;*/
+/*  margin: 0; !* מסיר ריווח מיותר *!*/
+/*}*/
